@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <faceted-project>
-  <runtime name="Ismailiseri&lt;3"/>
+  <runtime name="apache-tomcat-10.0.13"/>
   <fixed facet="java"/>
-  <fixed facet="wst.jsdt.web"/>
   <fixed facet="jst.web"/>
+  <fixed facet="wst.jsdt.web"/>
   <installed facet="java" version="17"/>
   <installed facet="jst.web" version="5.0"/>
   <installed facet="wst.jsdt.web" version="1.0"/>
