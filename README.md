@@ -6,4 +6,6 @@ abi salın artık nolur
 - .classpath 
 - .settings 
 - pom.xml 
+- .project
+- target/m2e-wtp 
 - 
