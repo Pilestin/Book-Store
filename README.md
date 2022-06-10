@@ -9,3 +9,5 @@ abi salın artık nolur
 - .project
 - target/m2e-wtp 
 - 
+
+cd .. 
