@@ -18,13 +18,13 @@
             <ul class="navbar-nav mr-auto">
 
                 <li class="nav-item active">
-                    <a class="nav-link" href="index.jsp">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="index.jsp">Ana Sayfa <span class="sr-only">(current)</span></a>
                 </li>
 
 
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Categories
+                        Kategoriler
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                         <a class="dropdown-item" href="#">Action</a>
@@ -50,11 +50,11 @@
                 %>
 
                 <li class="nav-item active">
-                    <a class="nav-link" href="login.jsp">Login </a>
+                    <a class="nav-link" href="login.jsp">Giriş Yap </a>
                 </li>
 
                 <li class="nav-item active">
-                    <a class="nav-link" href="register.jsp">Register </a>
+                    <a class="nav-link" href="register.jsp">Kaydol </a>
                 </li>
 
 
@@ -63,11 +63,11 @@
 
                 %>
                 <li class="nav-item active">
-                    <a class="nav-link" href="<%=  user1.getUserType().equals("admin") ? "admin.jsp" : "normal.jsp"%>"><%= user1.getUserName()%> </a>
+                    <a class="nav-link" href="<%= user1.getUserType().equals("admin") ? "admin.jsp" : "normal.jsp"%>"><%= user1.getUserName()%> </a>
                 </li>
 
                 <li class="nav-item active">
-                    <a class="nav-link" href="LogoutServlet">Logout </a>
+                    <a class="nav-link" href="LogoutServlet">Çıkış Yap </a>
                 </li>
 
 

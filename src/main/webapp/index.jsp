@@ -121,8 +121,8 @@
                                     </div>
 								
                                     <div class="card-footer text-center">
-                                        <button class="btn custom-bg text-white" onclick="add_to_cart(<%= p.getpId()%>, '<%= p.getpName()%>',<%= p.getPriceAfterApplyingDiscount() %>)">Add to Cart</button>
-                                        <button class="btn  btn-outline-success ">  &#8378; <%= p.getpPrice()%>/-  <span class="text-secondary discount-label">  &#8378; <%= p.getpPrice()%> , <%= p.getpDiscount()%>% off </span>  </button>
+                                        <button class="btn custom-bg text-white" onclick="add_to_cart(<%= p.getpId()%>, '<%= p.getpName()%>',<%= p.getPriceAfterApplyingDiscount() %>)">Sepete Ekle</button>
+                                        <button class="btn  btn-outline-success ">  &#8378; <%= p.getpPrice()%> -  <span class="text-secondary discount-label">  &#8378; <%= p.getpPrice()%> , <%= p.getpDiscount()%>% off </span>  </button>
 
                                     </div>
 
@@ -134,7 +134,7 @@
                                 <%}
 
                                     if (list.size() == 0) {
-                                        out.println("<h3>No item in this category</h3>");
+                                        out.println("<h3>Burada ürün bulunmamakta</h3>");
                                     }
 
 

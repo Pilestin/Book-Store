@@ -78,7 +78,7 @@
                                 </div>
 
                                 <div class="container text-center">
-                             
+                             		<a href="basarili.jsp" <button class="btn btn-outline-success" >Sipariş Ver</button>> </a>
                              		<button class="btn btn-outline-success" onclick="document.location.href = 'basarili.jsp'">Sipariş Ver</button>
                              		<button class="btn btn-outline-primary" onclick="document.location.href = 'index.jsp'">Alışverişe Devam Et</button>
                                 </div>

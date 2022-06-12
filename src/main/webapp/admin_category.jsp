@@ -5,7 +5,7 @@
 <%@ page import="dao.CategoryDao"%>
 <%@ page import="entity.Category"%>
 <%@ page import="java.util.List"%>
-<%@include file="components/common_css_js.jsp"%>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -14,6 +14,7 @@
 </head>
 <body>
 	<%@include file="components/navbar.jsp"%>
+	<%@include file="components/common_css_js.jsp"%>
 	<%
 		CategoryDao cdao = new CategoryDao(FactoryProvider.getFactory());
 		List<Category> clist = cdao.getCategories();
