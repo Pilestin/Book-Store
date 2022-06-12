@@ -85,3 +85,26 @@
         opacity: 0;
     }
 }
+
+  .footerYazıKont{  /*En altta bulunan footer bölümünün yazıları için CSS */ 
+    width: 150px;
+    position:relative;
+    left:15%;
+    text-align: left;
+  }
+  .footerGriCizgi{  /*En altta bulunan footer bölümündeki sosyal medya ikonlarını tutan gri konteyner */ 
+    background-color:rgb(223, 223, 233); 
+    margin-bottom: 5%; 
+    height: 80px;
+  }
+   .footerLogolari{  /*En alttaki footer bölümünün logoları için CSS */ 
+    margin:10px 10px 10px 10px ;
+    max-width: 40px;
+    max-height: 40px;
+  
+  }
+ .logolarS{
+    margin-left: 1000px;
+  }
+
+
