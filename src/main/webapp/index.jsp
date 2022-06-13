@@ -9,22 +9,22 @@
 <%@ page import="java.util.List"%>
 <%@ page import="dao.ProductDao"%>
 
-<%@include file="components/common_css_js.jsp"%>
 
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="UTF-8">
+<meta  name="viewport" content="width=device-width, initial-scale=1">
 <title>Ana Sayfa</title>
 <!-- İmport işlemleri - Bootstrap ve js için -->
 
 
-
+<%@include file="components/common_css_js.jsp"%>
 </head>
 <body>
-
+	<%@include file="components/header.jsp" %>
 	<%@include file="components/navbar.jsp"%>
-
+	
+	
 	<div class="container-fluid">
 		<div class="row mt-3 mx-2">
 
@@ -55,6 +55,8 @@
 				<!--row-->
 				<div class="row mt-4">
 
+
+
 					<!--col:12-->
 					<div class="col-md-12">
 
@@ -77,7 +79,6 @@
 								</div>
 
 								<div class="card-body">
-
 									<h5 class="card-title"><%=p.getpName()%></h5>
 
 									<p class="card-text">
@@ -124,8 +125,7 @@
 				<div class="list-group mt-4">
 
 					<a href="index.jsp?category=all"
-						class="list-group-item list-group-item-action active"> All
-						Products </a>
+						class="list-group-item list-group-item-action active"> Tüm Ürünler </a>
 
 					<%
 					for (Category c : clist) {

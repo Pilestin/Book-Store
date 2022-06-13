@@ -47,7 +47,7 @@ if (user == null) {
 <!DOCTYPE html>
 <html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Admin Panel</title>
 <%@include file="components/common_css_js.jsp"%>
 
@@ -76,14 +76,14 @@ if (user == null) {
 				<div class="card">
 					<div class="card-body text-center">
 						<div class="container">
-							<a href="admin_user.jsp"><img style="max-width: 125px;" class="img-fluid rounded-circle"
-								src="img/seo-and-web.png" alt="user_icon">
+							<a href="admin_user.jsp"><img style="width: 150px; height: 150px" class="img-fluid rounded-circle"
+								src="img/admin/users.png" alt="user_icon">
 								</a>
 							
 
 						</div>
 						<h3><%=userCount %></h3>
-						<h1 class="text-uppercase text-muted">Users</h1>
+						<h1 class="text-uppercase text-muted">Kullanıcılar</h1>
 
 					</div>
 
@@ -104,15 +104,15 @@ if (user == null) {
 
 						<div class="container">
 							<a href="admin_category.jsp">
-							<img style="max-width: 125px;" class="img-fluid rounded-circle"
-								src="img/list.png" alt="user_icon">
+							<img style="width: 150px; height: 150px" class="img-fluid rounded-circle"
+								src="img/admin/category.png" alt="user_icon">
 							</a>
 							
 
 						</div>
 
 						<h3><%=categoryCount %></h3>
-						<h1 class="text-uppercase text-muted">Categories</h1>
+						<h1 class="text-uppercase text-muted">Kategoriler</h1>
 
 					</div>
 
@@ -131,13 +131,13 @@ if (user == null) {
 					<div class="card-body text-center">
 
 						<div class="container">
-							<a href="admin_product.jsp"><img style="max-width: 125px;"
-								class="img-fluid rounded-circle" src="img/product.png"
+							<a href="admin_product.jsp"><img style="width: 150px; height: 150px"
+								class="img-fluid rounded-circle" src="img/admin/product.png"
 								alt="user_icon"> </a>
 						</div>
 
 						<h3><%=productCount %></h3>
-						<h1 class="text-uppercase text-muted">Products</h1>
+						<h1 class="text-uppercase text-muted">Ürünler</h1>
 
 					</div>
 
@@ -167,12 +167,12 @@ if (user == null) {
 
 						<div class="container">
 							<img style="max-width: 125px;" class="img-fluid rounded-circle"
-								src="img/keys.png" alt="user_icon">
+								src="img/admin/keys.png" alt="user_icon">
 
 						</div>
 
-						<p class="mt-2">Click here to add new category</p>
-						<h1 class="text-uppercase text-muted">Add Category</h1>
+						<p class="mt-2">Yeni kategori ekle</p>
+						<h1 class="text-uppercase text-muted">Kategori Ekle</h1>
 
 					</div>
 
@@ -190,12 +190,12 @@ if (user == null) {
 
 						<div class="container">
 							<img style="max-width: 125px;" class="img-fluid rounded-circle"
-								src="img/plus.png" alt="user_icon">
+								src="img/admin/plus.png" alt="user_icon">
 
 						</div>
 
-						<p class="mt-2">Click here to add new Product</p>
-						<h1 class="text-uppercase text-muted">Add Product</h1>
+						<p class="mt-2">Yeni ürün ekle</p>
+						<h1 class="text-uppercase text-muted">Ürün ekle</h1>
 
 					</div>
 
@@ -214,8 +214,7 @@ if (user == null) {
 		<div class="modal-dialog modal-lg" role="document">
 			<div class="modal-content">
 				<div class="modal-header custom-bg text-white">
-					<h5 class="modal-title" id="exampleModalLabel">Fill category
-						details</h5>
+					<h5 class="modal-title" id="exampleModalLabel">Kategori detayları</h5>
 					<button type="button" class="close" data-dismiss="modal"
 						aria-label="Close">
 						<span aria-hidden="true">&times;</span>
@@ -243,9 +242,9 @@ if (user == null) {
 
 						<div class="cotnainer text-center">
 
-							<button class="btn btn-outline-success">Add Category</button>
+							<button class="btn btn-outline-success">Kategori ekle</button>
 							<button type="button" class="btn btn-secondary"
-								data-dismiss="modal">Close</button>
+								data-dismiss="modal">Kapat</button>
 
 						</div>
 					</form>
@@ -267,7 +266,7 @@ if (user == null) {
 		<div class="modal-dialog modal-lg" role="document">
 			<div class="modal-content">
 				<div class="modal-header">
-					<h5 class="modal-title" id="exampleModalLabel">Product details</h5>
+					<h5 class="modal-title" id="exampleModalLabel">Ürün Detayları</h5>
 					<button type="button" class="close" data-dismiss="modal"
 						aria-label="Close">
 						<span aria-hidden="true">&times;</span>
@@ -341,7 +340,7 @@ if (user == null) {
 						<!--product file-->
 
 						<div class="form-group">
-							<label for="pPhoto">Select Picture of product</label> <br> <input
+							<label for="pPhoto">Ürün resmini seçin</label> <br> <input
 								type="file" id="pPhoto" name="pPhoto" required />
 
 						</div>
@@ -350,7 +349,7 @@ if (user == null) {
 						<!--submit button-->
 						<div class="container text-center">
 
-							<button class="btn btn-outline-success">Add product</button>
+							<button class="btn btn-outline-success">Ürünü ekle</button>
 
 						</div>
 					</form>
@@ -358,7 +357,7 @@ if (user == null) {
 				</div>
 				<div class="modal-footer">
 					<button type="button" class="btn btn-secondary"
-						data-dismiss="modal">Close</button>
+						data-dismiss="modal">Kapat</button>
 				</div>
 			</div>
 		</div>

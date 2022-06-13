@@ -1,7 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
 	
-<%@include file="common_modals.jsp"%>
+<%@include file="common_css_js.jsp"%>
 
 <footer>
 	<!-- üstteki yazı bölümü-->
@@ -24,94 +24,21 @@
 					<ul class="list-unstyled">
 						<!--sitilsiz -->
 						<li><a href="odevGir1.html" class="text-black-50"><p
-									class="text-left">Home</p></a></li>
+									class="text-center">Home</p></a></li>
 						<li><a href="#!" class="text-black-50"><p
-									class="text-left">Shop</p></a></li>
+									class="text-center">Shop</p></a></li>
 						<li><a href="#!" class="text-black-50"><p
-									class="text-left">Product</p></a></li>
+									class="text-center">Product</p></a></li>
 						<li><a href="#!" class="text-black-50"><p
-									class="text-left">About Us</p></a></li>
+									class="text-center">About Us</p></a></li>
 						<li><a href="#!" class="text-black-50"><p
-									class="text-left">Festival Offer</p></a></li>
-						<li><a href="#!" class="text-black-50"><p
-									class="text-left">Contact Us</p></a></li>
-						<li><a href="#!" class="text-black-50"><p
-									class="text-left">Login</p></a></li>
+									class="text-center">Contact Us</p></a></li>
 					</ul>
 				</div>
 			</div>
 			<!--Grid column 1 -->
 
-			<!--Grid column 2 -->
-			<div class="col">
-				<!--başlık-->
-				<div class="footerYazıKont">
-					<h6>Brands</h6>
-					<!--divider - sarı çizgi -->
-					<div class="mb-4">
-						<hr class="solid">
-					</div>
-				</div>
-
-				<!--içerik-->
-				<!-- Düzgün ve hizalı olması için bir div içine alalım -->
-				<div class=" footerYazıKont">
-					<ul class="list-unstyled">
-						<li><a href="#!" class="text-black-50"><p
-									class="text-left">Adsum</p></a></li>
-						<li><a href="#!" class="text-black-50"><p
-									class="text-left">Albam</p></a></li>
-						<li><a href="#!" class="text-black-50"><p
-									class="text-left">and wander</p></a></li>
-						<li><a href="#!" class="text-black-50"><p
-									class="text-left">Arpenteur</p></a></li>
-						<li><a href="#!" class="text-black-50"><p
-									class="text-left">Eastlogue</p></a></li>
-						<li><a href="#!" class="text-black-50"><p
-									class="text-left">Gitman Vintage</p></a></li>
-						<li><a href="#!" class="text-black-50"><p
-									class="text-left">Lady White Co.</p></a></li>
-					</ul>
-				</div>
-
-			</div>
-			<!--Grid column 2 -->
-
-			<!--Grid column 3 -->
-			<div class="col">
-				<!--başlık-->
-				<div class="footerYazıKont">
-					<h6>Categories</h6>
-					<!--divider - sarı çizgi -->
-					<div class="mb-4">
-						<hr class="solid">
-					</div>
-				</div>
-
-				<!--içerik-->
-				<!-- Düzgün ve hizalı olması için bir div içine alalım -->
-				<div class="footerYazıKont">
-					<ul class="list-unstyled mb-0">
-						<li><a href="#!" class="text-black-50"><p
-									class="text-left">Single Sofa</p></a></li>
-						<li><a href="#!" class="text-black-50"><p
-									class="text-left">Sleeper Sofas</p></a></li>
-						<li><a href="#!" class="text-black-50"><p
-									class="text-left">Accent Chairs</p></a></li>
-						<li><a href="#!" class="text-black-50"><p
-									class="text-left">Chairs-and-a-half</p></a></li>
-						<li><a href="#!" class="text-black-50"><p
-									class="text-left">Recliners</p></a></li>
-						<li><a href="#!" class="text-black-50"><p
-									class="text-left">Swivels & Gliders</p></a></li>
-						<li><a href="#!" class="text-black-50"><p
-									class="text-left">Loveseats</p></a></li>
-					</ul>
-
-				</div>
-
-			</div>
-			<!--Grid column 3 -->
+			
 
 			<!--Grid column 4 -->
 			<div class="col">
@@ -127,19 +54,19 @@
 				<!--içerik-->
 				<!-- Düzgün ve hizalı olması için bir div içine alalım -->
 				<div class="footerYazıKont">
-					<ul class="list-unstyled">
+					<ul class="list-unstyled" >
 						<li><a href="#!" class="text-black-50"><p
-									class="text-left">GDPR</p></a></li>
+									class="text-center">GDPR</p></a></li>
 						<li><a href="#!" class="text-black-50"><p
-									class="text-left">Cookie Policy</p></a></li>
+									class="text-center">Cookie Policy</p></a></li>
 						<li><a href="#!" class="text-black-50"><p
-									class="text-left">Terms</p></a></li>
+									class="text-center">Terms</p></a></li>
 						<li><a href="#!" class="text-black-50"><p
-									class="text-left">Abuse Policy</p></a></li>
+									class="text-center">Abuse Policy</p></a></li>
 						<li><a href="#!" class="text-black-50"><p
-									class="text-left">Privacy Policy</p></a></li>
+									class="text-center">Privacy Policy</p></a></li>
 						<li><a href="#!" class="text-black-50"><p
-									class="text-left">Contact Us</p></a></li>
+									class="text-center">Contact Us</p></a></li>
 					</ul>
 				</div>
 
