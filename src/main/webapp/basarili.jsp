@@ -1,6 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
-<%@include file="components/common_css_js.jsp"%>
+<%@include file="components/import.jsp"%>
 
 <!DOCTYPE html>
 <html>
@@ -61,19 +61,6 @@
 	margin: 30px 0 10px;
 }
 
-.popup button {
-	width: 100%;
-	margin-top: 50px;
-	padding: 10px 0;
-	background: #6fd649;
-	color: #fff;
-	border: 0;
-	outline: none;
-	font-size: 18px;
-	border-bottom: 4px;
-	cursor: pointer;
-	box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
-}
 </style>
 <meta charset="ISO-8859-1">
 <title>Redirecting</title>

@@ -2,7 +2,22 @@
 	pageEncoding="UTF-8"%>
 	
 <%@include file="common_css_js.jsp"%>
+<style>
 
+h6{
+	color:#3498DB;
+	font-weight:bold;
+}
+
+p{
+	color:#3498DB
+}
+
+i{
+	color:white;
+}
+
+</style>
 <footer>
 	<!-- üstteki yazı bölümü-->
 	<div class="jumbotron text-center" style="background-color: white;">
@@ -78,8 +93,12 @@
 	 <!--alttaki sosyal medya ve logo bölümü + easter egg :D-->
     <div class="container-fluid footerGriCizgi">
       <div class="row">
-        <p style="margin: 20px 0px 0px 40px;">❤️İsmail İşeri ❤️</p> 
+        <p style="margin: 20px 0px 0px 40px;color:#0A0708">❤️İsmail İşeri ❤️</p> 
 		<div class="container" style="width:800px"> </div>
+<!-- 			<i class="fa-brands fa-3x fa-instagram"></i> -->
+<!-- 			<i class="fa-brands fa-3x fa-facebook"></i> -->
+<!-- 			<i class="fa-brands fa-3x fa-linkedin"></i> -->
+<!-- 			<i class="fa-brands fa-3x fa-twitter"></i> -->
           <img src="img/logo/face.png" class="img-fluid footerLogolari " alt="logo" >
           <img src="img/logo/twitter.png" class="img-fluid footerLogolari  " alt="logo" > 
           <img src="img/logo/linkedin.png" class="img-fluid footerLogolari " alt="logo" > 

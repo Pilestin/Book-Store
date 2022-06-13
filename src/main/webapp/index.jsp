@@ -21,7 +21,6 @@
 <%@include file="components/common_css_js.jsp"%>
 </head>
 <body>
-	<%@include file="components/header.jsp" %>
 	<%@include file="components/navbar.jsp"%>
 	
 	
@@ -150,7 +149,6 @@
 	
 	<br>
 	<br>
-	
 	
 	<%@include file="components/footer.jsp"%>
 	<%@include file="components/common_modals.jsp"%>

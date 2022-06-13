@@ -91,7 +91,7 @@
     text-align: left;
   }
   .footerGriCizgi{  /*En altta bulunan footer bölümündeki sosyal medya ikonlarını tutan gri konteyner */ 
-    background-color:rgb(223, 223, 233); 
+    background-color:#a3cae3; 
     margin-bottom: 5%; 
     height: 80px;
   }
