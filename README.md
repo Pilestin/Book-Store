@@ -13,7 +13,7 @@
 - Footer'daki gereksiz bilgiler kaldırıldı ve yönlendirmeler yapıldı. 
 - About Us bölümü eklendi. 
 
-
+![image](https://user-images.githubusercontent.com/56133248/173833521-14b3b958-3693-4dc7-a8be-a81e180bfe8e.png)
 
 
 
