@@ -125,7 +125,7 @@ public class ProductOperationServlet extends HttpServlet {
 
                 out.println("Product save sucess...");
                 HttpSession httpSession = request.getSession();
-                httpSession.setAttribute("message", "Product is added successfully..");
+                httpSession.setAttribute("message", "Ürün başarıyla eklendi");
                 response.sendRedirect("admin.jsp");
                 return;
 
@@ -139,7 +139,7 @@ public class ProductOperationServlet extends HttpServlet {
                 
                 out.println("Product delete sucess...");
                 HttpSession httpSession = request.getSession();
-                httpSession.setAttribute("message", "Product is deleted successfully..");
+                httpSession.setAttribute("message", "Ürün başarıyla silindi");
                 response.sendRedirect("admin.jsp");
             }
             else if(op.trim().equals("deleteuser")) {
@@ -150,7 +150,7 @@ public class ProductOperationServlet extends HttpServlet {
                 out.println("User deleted sucess...");
                 udao.deleteUserById(uId);
                 HttpSession httpSession = request.getSession();
-                httpSession.setAttribute("message", "User is deleted successfully..");
+                httpSession.setAttribute("message", "Kullanıcı başarıyla silindi");
                 response.sendRedirect("admin.jsp");
             }
             else if(op.trim().equals("changeproductquantity")) {
@@ -162,7 +162,7 @@ public class ProductOperationServlet extends HttpServlet {
                 out.println("\n\n id, quantity" + pid +" " + quantity);
                 pdao.changeProductQuantity(pid, quantity);
                 HttpSession httpSession = request.getSession();
-                httpSession.setAttribute("message", "Product quantity changed..");
+                httpSession.setAttribute("message", "Ürün adedi güncellendi");
                 response.sendRedirect("admin.jsp");
             }
             

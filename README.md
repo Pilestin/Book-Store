@@ -1,5 +1,21 @@
 # Web-Proje
 
+-----------------------------------------------------------------
+<15/06 , 16.00>
+
+
+- Son güncellemeler yapıldı. 
+- Yeni kategoriler eklendi 
+- Sayfa başlığı ve boşluk(+ hr ) eklendi 
+- Tüm sayfalar ve bildirimler Türkçe'ye çevrildi. 
+- Dosya hiyerarşisi düzenlendi. 
+- Navbar'daki kategoriler düzenlendi ve yönlendirmeleri yapıldı
+- Footer'daki gereksiz bilgiler kaldırıldı ve yönlendirmeler yapıldı. 
+- About Us bölümü eklendi. 
+
+
+
+
 
 -----------------------------------------------------------------
 <13/06 , 23.02> 

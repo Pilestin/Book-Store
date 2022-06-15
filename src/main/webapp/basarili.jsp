@@ -74,7 +74,9 @@
 		sleep(5000).then(() => {
 			deleteAllCart();
 			window.location.href = "index.jsp";   	
-		});
+	});
+		
+		
 	</script>
 
 </head>

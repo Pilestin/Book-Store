@@ -13,7 +13,7 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Insert title here</title>
+<title>Tüm Ürünler</title>
 <%@include file="components/common_css_js.jsp"%>
 </head>
 <body>

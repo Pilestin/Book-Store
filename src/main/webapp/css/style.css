@@ -28,6 +28,8 @@
     font-style: italic !important;
     /*text-decoration: line-through!important;*/
 }
+.product-card{
+}
 
 .product-card:hover {
     background: #e2e2e2;

@@ -38,15 +38,15 @@ i{
 					<!--sola eşit olması için bir kutu içerisine listeyi koydum-->
 					<ul class="list-unstyled">
 						<!--sitilsiz -->
-						<li><a href="odevGir1.html" class="text-black-50"><p
+						<li><a href="index.jsp" class="text-black-50"><p
 									class="text-center">Home</p></a></li>
-						<li><a href="#!" class="text-black-50"><p
+						<li><a href="index.jsp" class="text-black-50"><p
 									class="text-center">Shop</p></a></li>
-						<li><a href="#!" class="text-black-50"><p
+						<li><a href="index.jsp" class="text-black-50"><p
 									class="text-center">Product</p></a></li>
-						<li><a href="#!" class="text-black-50"><p
+						<li><a href="about.jsp" class="text-black-50"><p
 									class="text-center">About Us</p></a></li>
-						<li><a href="#!" class="text-black-50"><p
+						<li><a href="about.jsp" class="text-black-50"><p
 									class="text-center">Contact Us</p></a></li>
 					</ul>
 				</div>

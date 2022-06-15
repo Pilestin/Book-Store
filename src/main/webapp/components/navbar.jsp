@@ -12,7 +12,7 @@ User user1 = (User) session.getAttribute("current-user");
 	<div class="container">
 		
 <!-- 		<img alt="" src="img/logo/home-logo2.jpg" style="width: 40px ; height:40px; margin-right:20px"> -->
-		<i class="fa-solid fa-book-open-reader" style="color: white; font-size:40px;margin-bottom:10px;margin-right:7px"></i> 
+		<a  href="index.jsp"><i class="fa-solid fa-book-open-reader" style="color: white; font-size:40px;margin-bottom:10px;margin-right:7px"></i> </a>
 		<a class="navbar-brand" href="index.jsp"><h3 style="margin: 6px">MOY Store</h3> </a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse"
 			data-target="#navbarSupportedContent"
@@ -33,8 +33,12 @@ User user1 = (User) session.getAttribute("current-user");
 					role="button" data-toggle="dropdown" aria-haspopup="true"
 					aria-expanded="false"> Kategoriler </a>
 					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-						<a class="dropdown-item" href="#">Action</a> <a
-							class="dropdown-item" href="#">Another action</a>
+						<a class="dropdown-item" href="index.jsp?category=1">Akademik</a> 
+						<a class="dropdown-item" href="index.jsp?category=2">Edebiyat</a>
+						<a class="dropdown-item" href="index.jsp?category=3">Popüler Bilim</a> 
+						<a class="dropdown-item" href="index.jsp?category=4">Tarih</a>
+						<a class="dropdown-item" href="index.jsp?category=5">Siyaset</a>
+						<a class="dropdown-item" href="index.jsp?category=6">Kişisel Gelişim</a>
 						<div class="dropdown-divider"></div>
 						<a class="dropdown-item" href="#">Something else here</a>
 					</div></li>
@@ -80,7 +84,7 @@ User user1 = (User) session.getAttribute("current-user");
 				} else {
 				%>
 				<li class="nav-item active"><a style="font-size:18px" class="nav-link"
-					href="<%=user1.getUserType().equals("admin") ? "admin.jsp" : "normal.jsp"%>"><%=user1.getUserName()%>
+					href="<%=user1.getUserType().equals("admin") ? "admin.jsp" : "index.jsp"%>"><%=user1.getUserName()%>
 				</a></li>
 
 				<li class="nav-item active"><a class="nav-link"

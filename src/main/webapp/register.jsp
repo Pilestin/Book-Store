@@ -4,7 +4,7 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>New User</title>
+        <title>Yeni Kullanıcı</title>
 
         <%@include file="components/common_css_js.jsp" %>
     </head>
@@ -23,40 +23,40 @@
                             </div>
 
 
-                            <h3 class="text-center my-3">Sign up here !!</h3>
+                            <h3 class="text-center my-3">Kaydol</h3>
 
                             <form action="RegisterServlet" method="post">
 
                                 <div class="form-group">
-                                    <label for="name">User Name</label>
-                                    <input name="user_name" type="text" class="form-control" id="name" placeholder="Enter here" aria-describedby="emailHelp">
+                                    <label for="name">Kullanıcı Adı</label>
+                                    <input name="user_name" type="text" class="form-control" id="name" placeholder="Adınızı girin" aria-describedby="emailHelp">
                                 </div>
 
                                 <div class="form-group">
-                                    <label for="email">User Email</label>
-                                    <input name="user_email" type="email" class="form-control" id="email" placeholder="Enter here" aria-describedby="emailHelp">
+                                    <label for="email">E-mail</label>
+                                    <input name="user_email" type="email" class="form-control" id="email" placeholder="Mail adresinizi girin" aria-describedby="emailHelp">
                                 </div>
 
                                 <div class="form-group">
-                                    <label for="password">User password</label>
-                                    <input name="user_password" type="password" class="form-control" id="password" placeholder="Enter here" aria-describedby="emailHelp">
+                                    <label for="password">Şifre</label>
+                                    <input name="user_password" type="password" class="form-control" id="password" placeholder="Şifrenizi girin" aria-describedby="emailHelp">
                                 </div>
 
                                 <div class="form-group">
-                                    <label for="phone">User phone</label>
-                                    <input name="user_phone" type="number" class="form-control" id="phone" placeholder="Enter here" aria-describedby="emailHelp">
+                                    <label for="phone">Telefon Numarası</label>
+                                    <input name="user_phone" type="number" class="form-control" id="phone" placeholder="Telefon numaranızı girin" aria-describedby="emailHelp">
                                 </div>
 
                                 <div class="form-group">
-                                    <label for="phone">User Address</label>
-                                    <textarea name="user_address" style="height: 200px;" class="form-control" placeholder="Enter your address"></textarea>
+                                    <label for="phone">Adres</label>
+                                    <textarea name="user_address" style="height: 200px;" class="form-control" placeholder="Adresinizi girin"></textarea>
 
 
                                 </div>
 
                                 <div class="container text-center"> 
-                                    <button class="btn btn-outline-success">Register</button>
-                                    <button class="btn btn-outline-warning">Reset</button>
+                                    <button class="btn btn-outline-success">Kaydol</button>
+                                    <button class="btn btn-outline-warning">Sıfırla</button>
 
                                 </div>
 

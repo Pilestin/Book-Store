@@ -6,7 +6,7 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>User Login - MyCart</title>
+        <title>Kullanıcı Girişi</title>
         <%@include file="components/common_css_js.jsp" %>
         
     </head>
@@ -19,26 +19,26 @@
                     <div class="card mt-3">
 
                         <div class="card-header custom-bg text-white">
-                            <h3>Login here</h3>
+                            <h3>Giriş Yap</h3>
                         </div>
 
                         <div class="card-body">                            
                             <%@include file="components/message.jsp" %>
                             <form action="LoginServlet" method="post">
                                 <div class="form-group">
-                                    <label for="exampleInputEmail1">Email address</label>
-                                    <input  name="email" type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-                                    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                                    <label for="exampleInputEmail1">Email adresiz</label>
+                                    <input  name="email" type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email adresinizi girin">
+                                    <small id="emailHelp" class="form-text text-muted">Mail adresiniz bizimle güvende.</small>
                                 </div>
                                 <div class="form-group">
-                                    <label for="exampleInputPassword1">Password</label>
-                                    <input  name="password" type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                                    <label for="exampleInputPassword1">Şifreniz</label>
+                                    <input  name="password" type="password" class="form-control" id="exampleInputPassword1" placeholder="Şifrenizi girin">
                                 </div>
-                                <a href="register.jsp" class="text-center d-block mb-2"> if not registered click here </a>
+                                <a href="register.jsp" class="text-center d-block mb-2"> Siteye kaydolmak için tıklayın </a>
                                 <div class="container text-center"> 
 
-                                    <button type="submit" class="btn btn-primary border-0 custom-bg ">Submit</button>
-                                    <button type="reset" class="btn btn-primary custom-bg border-0 ">Reset</button>
+                                    <button type="submit" class="btn btn-primary border-0 custom-bg ">Giriş Yap</button>
+                                    <button type="reset" class="btn btn-primary custom-bg border-0 ">Sıfırla</button>
                                 </div>
 
                             </form>

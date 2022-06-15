@@ -1,11 +1,9 @@
-<%@ page language="java" contentType="text/html; charset= UTF-8"
-	pageEncoding="UTF-8"%>
-	
+
 <!DOCTYPE html>
 <html>
 <head>
 	
-	<title>About Page</title>
+	<title>Hakkında</title>
 	<!-- İmport işlemleri - Bootstrap ve js için -->
 	<%@include file="components/common_css_js.jsp"%>
 	
@@ -13,11 +11,13 @@
 	<style></style>
 </head>
 <body>
-	<h1>About Page</h1>
 	<%@include file="components/navbar.jsp" %>
 	<div class="jumbotron">
-            <h1>About My Cart website</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id, expedita, neque laudantium fugiat adipisci cumque impedit magni delectus debitis libero corporis nemo quis voluptate nobis at. Obcaecati, iste aspernatur dicta assumenda laboriosam nemo voluptatibus consectetur perspiciatis delectus temporibus! Cumque ipsa similique placeat eveniet doloribus corrupti facilis accusantium veniam neque autem!</p>
+            <h1> İletişim</h1>
+            <hr>
+            <p>Yasin Ünal : <a>yasin.unal@bil.omu.edu.tr</a> </p>
+            <p>Osman Büyükşar : <a>osman.buyuksar@bil.omu.edu.tr</a> </p>
+            <p>Mazen Alghaberi : <a>18061806@stu.omu.edu.tr</a> </p>
         </div>
 
         <%@include  file="components/common_modals.jsp" %>

@@ -228,14 +228,14 @@ if (user == null) {
 
 						<div class="form-group">
 							<input type="text" class="form-control" name="catTitle"
-								placeholder="Enter category title" required />
+								placeholder="Kategori adı girin" required />
 
 						</div>
 
 
 						<div class="form-group">
 							<textarea style="height: 300px;" class="form-control"
-								placeholder="Enter category description" name="catDescription"
+								placeholder="Kategori açıklaması girin" name="catDescription"
 								required></textarea>
 
 						</div>
@@ -284,14 +284,14 @@ if (user == null) {
 
 						<div class="form-group">
 							<input type="text" class="form-control"
-								placeholder="Enter title of product" name="pName" required />
+								placeholder="Ürün adını girin" name="pName" required />
 						</div>
 
 						<!--product description-->
 
 						<div class="form-group">
 							<textarea style="height: 150px;" class="form-control"
-								placeholder="Enter product description" name="pDesc"></textarea>
+								placeholder="Ürün açıklamasını girin" name="pDesc"></textarea>
 
 						</div>
 
@@ -299,14 +299,14 @@ if (user == null) {
 
 						<div class="form-group">
 							<input type="number" class="form-control"
-								placeholder="Enter price of product" name="pPrice" required />
+								placeholder="Ürün fiyatını girin" name="pPrice" required />
 						</div>
 
 						<!--product discount-->
 
 						<div class="form-group">
 							<input type="number" class="form-control"
-								placeholder="Enter product discount" name="pDiscount" required />
+								placeholder="Ürün indirim miktarını girin" name="pDiscount" required />
 						</div>
 
 
@@ -314,7 +314,7 @@ if (user == null) {
 
 						<div class="form-group">
 							<input type="number" class="form-control"
-								placeholder="Enter product Quantity" name="pQuantity" required />
+								placeholder="Ürün miktarını girin" name="pQuantity" required />
 						</div>
 
 
@@ -340,17 +340,16 @@ if (user == null) {
 						<!--product file-->
 
 						<div class="form-group">
-							<label for="pPhoto">Ürün resmini seçin</label> <br> <input
-								type="file" id="pPhoto" name="pPhoto" required />
+						
+							<label for="pPhoto">Ürün resmini seçin</label> <br> 
+							<input type="file" id="pPhoto" name="pPhoto" required />
 
 						</div>
 
 
 						<!--submit button-->
 						<div class="container text-center">
-
 							<button class="btn btn-outline-success">Ürünü ekle</button>
-
 						</div>
 					</form>
 					<!--end form-->
