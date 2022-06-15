@@ -10,7 +10,8 @@
 - Tüm sayfalar ve bildirimler Türkçe'ye çevrildi. 
 - Dosya hiyerarşisi düzenlendi. 
 - Navbar'daki kategoriler düzenlendi ve yönlendirmeleri yapıldı
-- Footer'daki gereksiz bilgiler kaldırıldı ve yönlendirmeler yapıldı. 
+- Footer'daki gereksiz bilgiler kaldırıldı ve yönlendirmeler yapıldı.
+- Footer : Easter Egg -> ❤️İsmail İşeri ❤️ 
 - About Us bölümü eklendi. 
 
 ![image](https://user-images.githubusercontent.com/56133248/173833521-14b3b958-3693-4dc7-a8be-a81e180bfe8e.png)
