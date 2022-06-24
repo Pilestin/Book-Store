@@ -59,6 +59,10 @@ Bu proje Ondokuz Mayıs Üniversitesi Bilgisayar Mühendisliği bölümü Web Pr
 ![image](https://user-images.githubusercontent.com/56133248/175610102-42ddcb96-9fb7-43b6-ba34-c3a64744f6ee.png)
 ![image](https://user-images.githubusercontent.com/56133248/175610264-75f28c43-2b3f-4afe-8d5c-240cfd77af39.png)
 
+### Footer 
+
+![image](https://user-images.githubusercontent.com/56133248/175610553-0ffc5669-5e53-41d6-b189-806fbff4b835.png)
+
 
 -----------------------------------------------------------------
 <15/06 , 16.00>
