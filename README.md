@@ -5,7 +5,7 @@ Bu proje Ondokuz Mayıs Üniversitesi Bilgisayar Mühendisliği bölümü Web Pr
 
 <p>	▶️ Uygulamanın youtube videosunu izlemek için tıkla -> 
   <a href="https://www.youtube.com/watch?v=bxDhUz2oW_E&t=143s&ab_channel=YAS%C4%B0N%C3%9CNAL">
-    <img border="0" alt="izlemek için tıkla" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/YouTube_full-color_icon_%282017%29.svg/2560px-YouTube_full-       color_icon_%282017%29.svg.png" width="50" height="30">
+    <img border="0" alt="izlemek için tıkla" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/YouTube_full-color_icon_%282017%29.svg/2560px-YouTube_full-       color_icon_%282017%29.svg.png" width="50" height="60">
   </a> 
 </p>
 
