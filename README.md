@@ -3,11 +3,11 @@
 
 Bu proje Ondokuz Mayıs Üniversitesi Bilgisayar Mühendisliği bölümü Web Programlama ( BİL 356 ) dersinde dönem ödevi olarak yapılmıştır. Proje 3 kişi tarafından gerçeklenmiştir.
 
-<p>		:yt: </p>
-
-▶️ Uygulamanın youtube videosunu izlemek için -> <p align = "justify"><img src="https://icons.iconarchive.com/icons/papirus-team/papirus-apps/24/youtube-icon.png"><a href="https://www.youtube.com/watch?v=bxDhUz2oW_E&t=143s&ab_channel=YAS%C4%B0N%C3%9CNAL">Youtube</a></p>
-
-[![](https://icons.iconarchive.com/icons/papirus-team/papirus-apps/24/youtube-icon.png) Youtube](https://www.youtube.com/watch?v=bxDhUz2oW_E&t=143s&ab_channel=YAS%C4%B0N%C3%9CNAL)
+<p>	▶️ Uygulamanın youtube videosunu izlemek için -> 
+  <a href="https://www.youtube.com/watch?v=bxDhUz2oW_E&t=143s&ab_channel=YAS%C4%B0N%C3%9CNAL">
+    <img border="0" alt="izlemek için tıkla" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/YouTube_full-color_icon_%282017%29.svg/2560px-YouTube_full-       color_icon_%282017%29.svg.png" width="100" height="100">
+  </a> 
+</p>
 
 
 ### Ekip :
