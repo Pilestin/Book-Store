@@ -17,7 +17,6 @@ Bu proje Ondokuz Mayıs Üniversitesi Bilgisayar Mühendisliği bölümü Web Pr
 | - 👋 Yasin Ünal  | [GitHub Profili -> ![](https://user-images.githubusercontent.com/56133248/156841715-8667ec6a-2e1c-48ba-a42e-6f6a09ff5478.png)](https://github.com/Pilestin) | Backend, Documentation |
 | - 👋 Osman Büyükşar   | [GitHub Profili -> ![](https://user-images.githubusercontent.com/56133248/156841715-8667ec6a-2e1c-48ba-a42e-6f6a09ff5478.png)](https://github.com/OsmanBuyuksar)  | Backend Documentation |
 | - 👋 Mazen Alghaberi   | [GitHub Profili -> ![](https://user-images.githubusercontent.com/56133248/156841715-8667ec6a-2e1c-48ba-a42e-6f6a09ff5478.png)](https://github.com/m3zen) | Frontend | 
-|
 
 ### Amaç :
 
